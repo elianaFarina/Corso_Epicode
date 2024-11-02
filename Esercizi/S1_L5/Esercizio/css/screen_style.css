@@ -1,0 +1,240 @@
+/*HEADER*/
+
+header {
+    background-color: black;
+    max-width: 1920;
+    padding: 10px;
+    text-align: left;
+
+}
+
+header img {
+    margin-left: 1rem;
+    height: 3rem;
+}
+
+body {
+    min-width: 1366px;
+    max-height: 1920px;
+    margin: 0;
+    padding: 0;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+
+div {
+    text-align: center;
+}
+
+/*
+BANNER BLOCK
+*/
+
+#banner-block {
+    position: relative;
+    display: inline-block;
+    height: 500px;
+    overflow: hidden;
+}
+
+#banner-block img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#image_overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#image_overlay p {
+    font-size: 1rem;
+}
+
+button {
+    color: white;
+    background-color: #f04c2f;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px 3px
+}
+
+/*
+BLOCK LAPTOP
+*/
+
+#block-laptop {
+    margin: 6rem;
+    display: inline-block;
+}
+
+#notebook {
+    border-radius: 50%;
+}
+
+#left {
+    float: left;
+}
+
+#left img {
+    height: 20rem;
+    text-align: left;
+}
+
+#right {
+    float: right;
+    margin-left: 4rem;
+    text-align: left;
+}
+
+#right div {
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+#right h3 {
+    text-align: left;
+    font-size: .8rem;
+}
+
+#right p {
+    font-size: 0.8rem;
+}
+
+
+hr {
+    width: 12%;
+}
+
+/*
+TESTIMONIANZE
+*/
+
+#testimonianze {
+    background-color: #e22d0e;
+    color: white;
+    padding: 6rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+#testimonianze h3 {
+    color: white
+}
+
+#testimonanze-quote {
+    font-style: italic;
+}
+
+#mario-rossi {
+    font-size: 1rem;
+}
+
+#ceo {
+    font-size: 0.6rem;
+    line-height: 0.4rem;
+}
+
+/*
+INLINE BLOCK
+*/
+
+#container {
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.block {
+    border: 0.5px solid lightgrey;
+
+    display: inline-block;
+    vertical-align: top;
+    max-width: 336px;
+    line-height: 1rem;
+    margin-left: 10px;
+
+    border-radius: 1%
+}
+
+.block h3 {
+    font-size: 0.8rem;
+}
+
+.block p {
+    font-size: 0.8rem;
+    width: 100%;
+    ;
+}
+
+.block img {
+    width: 336px;
+    height: 223px;
+}
+
+.block div {
+    padding: 1rem;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    padding: 2rem;
+    ;
+    background-color: #25a2c3;
+    color: white;
+}
+
+footer h2 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+footer u {
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 70%;
+    color: #c8e7f0;
+}
+
+footer i {
+    color: white
+}
+
+#contacts {
+    margin: 0 auto;
+    width: 13%;
+    text-align: left;
+}
+
+#copyright {
+    font-size: 60%;
+}
