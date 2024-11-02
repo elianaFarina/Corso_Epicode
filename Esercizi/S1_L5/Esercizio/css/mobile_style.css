@@ -1,29 +1,30 @@
 /*HEADER*/
 
-
 header {
     background-color: black;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 
 }
 
 header img {
     margin-left: 1rem;
     height: 3rem;
+
 }
 
 body {
-    min-width: 1366px;
-    max-width: 1920px;
+
+    min-width: 450px;
+    max-width: 500px;
     margin: 0;
-    padding: 0;
     overflow-x: hidden;
+    padding: 0;
     color: #393d41;
-    font-size: 1.2rem;
+    font-size: 1, 2rem;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    line-height: 1.65;
+    line-height: 1, 65;
 }
 
 h1,
@@ -47,7 +48,6 @@ BANNER BLOCK
 #banner-block {
     position: relative;
     display: inline-block;
-    height: 500px;
     overflow: hidden;
 }
 
@@ -68,8 +68,17 @@ BANNER BLOCK
     text-align: center;
 }
 
+#image_overlay h1 {
+    font-size: 1em;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
 #image_overlay p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    width: 340px;
+
+    margin-bottom: 0.5em;
 }
 
 button {
@@ -88,41 +97,36 @@ BLOCK LAPTOP
 */
 
 #block-laptop {
-    margin: 6rem;
-    display: inline-block;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #notebook {
     border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-#left {
-    float: left;
+
+.laptop-text {
+
+    text-align: center;
 }
 
-#left img {
-    height: 20rem;
-    text-align: left;
-}
-
-#right {
-    float: right;
-    margin-left: 4rem;
-    text-align: left;
-}
-
-#right div {
-    text-align: left;
+.laptop-text div {
+    text-align: center;
     line-height: 1.5rem;
 }
 
-#right h3 {
-    text-align: left;
-    font-size: .8rem;
+.laptop-text h3 {
+    text-align: center;
+    font-size: 1.4rem;
 }
 
-#right p {
-    font-size: 0.8rem;
+.laptop-text p {
+    text-align: center;
+    font-size: 1rem;
 }
 
 
@@ -143,11 +147,13 @@ TESTIMONIANZE
 }
 
 #testimonianze h3 {
-    color: white
+    color: white;
+    font-size: larger;
 }
 
 #testimonanze-quote {
     font-style: italic;
+
 }
 
 #mario-rossi {
@@ -174,9 +180,10 @@ INLINE BLOCK
     border: 0.5px solid lightgrey;
 
     display: inline-block;
+    vertical-align: top;
     max-width: 336px;
     line-height: 1rem;
-    margin-left: 10px;
+    margin-bottom: 30px;
 
     border-radius: 1%
 }
@@ -212,8 +219,8 @@ footer {
 }
 
 footer h2 {
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 3rem;
+    padding: 0.5rem;
 }
 
 footer u {
@@ -221,7 +228,7 @@ footer u {
 }
 
 footer p {
-    font-size: 70%;
+    font-size: 90%;
     color: #c8e7f0;
 }
 
@@ -230,11 +237,10 @@ footer i {
 }
 
 #contacts {
-    margin: 0 auto;
-    width: 13%;
-    text-align: left;
+    line-height: 1.3rem;
+    text-align: center;
 }
 
 #copyright {
-    font-size: 60%;
+    font-size: 70%;
 }
